@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
     <title>ToDo App</title>
 </head>
-<body>
-    <h1>Todos</h1>
-    <form id="form">
+    <body>
+        <h1>Todos</h1>
+        <form id="form">
         <input 
-                type="text" 
-                id="input"
-                class="input"
-                placeholder="Insira sua task aqui"
-        />
-        <ul class="todos">
+                    type="text" 
+                    id="input"
+                    class="input"
+                    placeholder="Insira sua task aqui"
+                    autocomplete="off"
+            />
+        <ul class="todos" id="todos">
             <li>This is a todo</li>
         </ul>
-    </form>
-</body>
+        </form>
+    </body>
 </html>

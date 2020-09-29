@@ -22,6 +22,8 @@ form {
 }
 
 .input {
+    border: none;
+    box-shadow: 0 4px 10px rgb(0,0,0,0.1);
     font-size: 2rem;
     padding: 1rem 2rem;
     display: block;
@@ -40,6 +42,7 @@ form {
 }
 
 .todos li {
-    font-size: 2rem;
+    border-top: 1px solid #e5e5e5;
+    font-size: 1.5rem;
     padding: 1rem 2rem;
 }
