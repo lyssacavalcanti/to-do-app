@@ -22,7 +22,24 @@ form {
 }
 
 .input {
+    font-size: 2rem;
     padding: 1rem 2rem;
     display: block;
     width: 100%;
+}
+
+.input::placeholder {
+    color: #b5b5b5; 
+}
+
+.todos {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.todos li {
+    font-size: 2rem;
+    padding: 1rem 2rem;
 }
