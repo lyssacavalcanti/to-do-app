@@ -5,9 +5,9 @@
 
 body {
     background-color: #f5f5f5;
+    color: #999;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -28,6 +28,7 @@ form {
 
 .input {
     border: none;
+    color: #444
     box-shadow: 0 4px 10px rgb(0,0,0,0.1);
     font-size: 2rem;
     padding: 1rem 2rem;
@@ -57,4 +58,10 @@ form {
     color: #b5b5b5;
     text-decoration: line-through;
 
+}
+
+small {
+    color:#b5b5b5;
+    margin-top: 3rem;
+    text-align: center;
 }
