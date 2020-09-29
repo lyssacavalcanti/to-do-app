@@ -5,8 +5,13 @@
 
 body {
     background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     font-family: "Poppins", sans-serif;
     margin: 0;
+    min-height: 100vh;
 }
 
 h1 {
@@ -31,7 +36,7 @@ form {
 }
 
 .input::placeholder {
-    color: #b5b5b5; 
+    color: #d5d5d5; 
 }
 
 .todos {
@@ -49,6 +54,7 @@ form {
 }
 
 .todos li.completed {
+    color: #b5b5b5;
     text-decoration: line-through;
 
 }
